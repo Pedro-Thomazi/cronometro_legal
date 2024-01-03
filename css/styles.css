@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ff9100;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+#container h1 {
+  font-size: 3em;
+}
+
+.cronometro {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.cronometro p {
+  font-size: 3em;
+}
+
+.cronometro .number {
+  background-color: #eee;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid #ff5e00;
+  border-radius: 10px;
+}
+
+.buttonsAction button {
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 2em;
+  margin: 20px 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: .4s;
+}
+
+.buttonsAction button:hover {
+  border-color: #ff5e00;
+  background-color: #eee;
+  color: #ff5e00;
+}
+
+
+.configurar {
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.configurar div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.configurar div label {
+  color: #ff5e00;
+  font-size: 2em;
+}
+
+.configurar div input {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  font-size: 3em;
+  text-align: center;
+  border-radius: 10px;
+  border-color: #ff5e00;
+}
+
+
+#timer {
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  font-size: 2em;
+  background-color: #1f1f1f;
+  color: #ff5e00;
+  border-color: #ff5e00;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+#timer:hover {
+  background-color: transparent;
+  border-color: #1f1f1f;
+  color: #1f1f1f;
+}
